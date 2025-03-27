@@ -14,3 +14,6 @@ Ce projet est la procédure qui décrire les solutions de sécurité que j’ai 
 - Segmentation de réseau avec la fonction de VLAN
 - Implémentation des règles de pare-feu pour restreint des communications ou des connexions
 - Configurer des services de Pfsense pour améliorer la sécurité du réseau (Par exemple: pfBlockerNG)
+
+Schémas du réseau
+![](https://github.com/ShudeIsLearning/SecuriteReseauDomicile/blob/main/Images/ReseauDomicile.JPG)
