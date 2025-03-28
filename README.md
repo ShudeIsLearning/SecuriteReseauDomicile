@@ -51,6 +51,8 @@ Malgré que la vidéo date depuis 4 ans, les éléments essentiels sont les mêm
 
 Selon la documentation de Pfsense, la configuration par défaut devrait être le plus sécuritaire donc il n'y a aucun problème à l'utilisé une fois que la boîte est configurée.
 
+Cependant, je veux créer des Vlans, donc je navigue....(continue avec des captures d'écran)
+
 ## Étape 3:
 
 
