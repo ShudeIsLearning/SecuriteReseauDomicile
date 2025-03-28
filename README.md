@@ -30,5 +30,14 @@ Ce projet est la procédure qui décrire les solutions de sécurité que j’ai 
 -	Je voulais aussi connecter une imprimante au réseau pour tout le monde a accès. Par contre, je pense que c’est un peu trop compliqué à gérer la sécurité et les mises à jour d’une imprimante. Alors je la laisse de côté. Ma famille pourrait utiliser l’imprimante avec un câble qui connecte l’ordi vers l’imprimante pour imprimer ce dont ils ont besoin.
 -	Je voudrais implémenter plus tard une IDS comme Suricata avec mon Raspi pour avoir une couche de sécurité de plus dans mon réseau.
 
+&ensp;
 ## Préface
+Ça fait un bon bout de temps que j’ai configuré mon réseau donc je n’ai pas eu la chance de documenter chaque étape. Alors il manquera certainement des captures écrans ici et là.
+
+## Étape 1: Activer le « bridge mode » dans la page admin du routeur/modem de FAI (Fournisseur accès internet)
+Il faut tout d’abord activer l’option bridge mode du routeur/modem de FAI. Cette option vise à amener la connexion internet à l’intérieur de votre maison et vous laisse aussi la possibilité à utiliser des équipements, notamment un pare-feu ou un routeur, sous votre contrôle.
+
+Dans mon cas, les informations pour se connecter dans la page admin sont écrites en arrière du routeur/modem de FAI et j’ai réussi à activer l’option « bridge mode » . Il est aussi le bon moment à <mark>**changer le mot de passe par défaut du compte admin**</mark> pour augmenter le niveau de sécurité. 
+
+Certains routeurs ou modems nécessitent l’installation d’une application pour faire les changements. Ou dans certains cas, nécessite une commande cmd « ipconfig » pour trouver l’adresse IP de la page admin avec l’information du « Défault Gateway ». Néanmoins, tout est trouvable avec une petite recherche google. 
 
