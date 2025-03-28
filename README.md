@@ -43,6 +43,7 @@ Certains routeurs ou modems nécessitent l’installation d’une application po
 
 
 ## Étape 2: Configuration de la boîte Pfsense SG-2100
+Tout d'abord, bien que Pfsense pourrait être virtualiser, je voudrais avoir un équipement qui est en marche 24/7 pour proteger mon réseau. J'aime la disponibilité des services et c'est pour cela  j'ai acheté la boîte de Pfsense.
 
 Malheureusement je n’ai pas de capture d’écran ni de documentation pour la configuration de Pfsense. Par contre, j’ai suivi la vidéo suivante pour me guider dans la configuration :
 https://www.youtube.com/watch?v=fsdm5uc_LsU
