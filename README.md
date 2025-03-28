@@ -32,7 +32,7 @@ Ce projet est la procédure qui décrire les solutions de sécurité que j’ai 
 
 &ensp;
 ## Préface
-Ça fait un bon bout de temps que j’ai configuré mon réseau donc je n’ai pas eu la chance de documenter chaque étape. Alors il manquera certainement des captures écrans ici et là.
+Ça fait un bon bout de temps que j’ai configuré mon réseau donc je n’ai pas eu la chance de documenter chaque étape. Alors il manquera certainement des captures écrans ici et là. J'ai aussi refait le câblage de la maison au fur et à mesure dans chaque étape avec des câbles d'ethernet que j'ai acheté chez Bestbuy ainsi une agrafeuse pour câble.
 
 ## Étape 1: Activer le « bridge mode » dans la page admin du routeur/modem de FAI (Fournisseur accès internet)
 Il faut tout d’abord activer l’option bridge mode du routeur/modem de FAI. Cette option vise à amener la connexion internet à l’intérieur de votre maison et vous laisse aussi la possibilité à utiliser des équipements, notamment un pare-feu ou un routeur, sous votre contrôle.
@@ -40,4 +40,17 @@ Il faut tout d’abord activer l’option bridge mode du routeur/modem de FAI. C
 Dans mon cas, les informations pour se connecter dans la page admin sont écrites en arrière du routeur/modem de FAI et j’ai réussi à activer l’option « bridge mode » . Il est aussi le bon moment à <mark>**changer le mot de passe par défaut du compte admin**</mark> pour augmenter le niveau de sécurité. 
 
 Certains routeurs ou modems nécessitent l’installation d’une application pour faire les changements. Ou dans certains cas, nécessite une commande cmd « ipconfig » pour trouver l’adresse IP de la page admin avec l’information du « Défault Gateway ». Néanmoins, tout est trouvable avec une petite recherche google. 
+
+
+## Étape 2: Configuration de la boîte Pfsense SG-2100
+
+Malheureusement je n’ai pas de capture d’écran ni de documentation pour la configuration de Pfsense. Par contre, j’ai suivi la vidéo suivante pour me guider dans la configuration :
+https://www.youtube.com/watch?v=fsdm5uc_LsU
+
+Malgré que la vidéo date depuis 4 ans, les éléments essentiels sont les mêmes.
+
+Selon la documentation de Pfsense, la configuration par défaut devrait être le plus sécuritaire donc il n'y a aucun problème à l'utilisé une fois que la boîte est configurée.
+
+## Étape 3:
+
 
