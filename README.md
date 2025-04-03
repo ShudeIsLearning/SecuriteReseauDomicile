@@ -54,6 +54,8 @@ Selon la documentation de Pfsense, la configuration par défaut devrait être le
 
 Cependant, je veux créer des Vlans, donc je navigue....(continue avec des captures d'écran)
 
+<mark>**À suivre**</mark>
+
 ## Étape 3:
 
 
